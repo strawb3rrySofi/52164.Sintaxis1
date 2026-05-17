@@ -1,4 +1,4 @@
-para i desde 1 hasta 5 hacer {
+para j desde 1 hasta 5 hacer {
     imprimir('Holi');
     salir;
 }
