@@ -1,0 +1,15 @@
+//Grmatica en EBNF
+
+<programa> ::= { <instrucción> }+
+<instrucción> ::= <conteo>
+<conteo> ::= 'para' <identificador> 'desde' <número> 'hasta' <número> 'hacer' '{' { <sentencia> } '}'
+<sentencia> ::= ( <salida> )+ | <terminar>
+<salida> ::= 'imprimir' '(' <cadena> ')' ';'
+<terminar> ::= 'salir' ';'
+<identificador> ::= <letra> { <letra> | <dígito> }*
+<número> ::= { <dígito> }+
+<cadena> ::= "'" { <carácter> } "'"
+<carácter> ::= <letra> | <dígito> | <símbolo>
+<letra> ::= 'a' | 'b' | ... | 'z' | 'A' | 'B' | ... | 'Z'
+<dígito> ::= '0' | '1' | ... | '9'
+<símbolo> ::= ' ' | '.' | ',' | '!' | '?' | '(' | ')'

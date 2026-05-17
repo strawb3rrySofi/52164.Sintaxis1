@@ -1,0 +1,6 @@
+
+para i desde 1 hasta hacer {
+    imprimir( " Hola mundo!");.
+}
+
+//Mi gramatica no permite el simbolo (") las doble comilla no se permiten
