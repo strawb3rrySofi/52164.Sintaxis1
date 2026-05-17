@@ -1,0 +1,4 @@
+para i desde 1 hasta hacer {
+    imprimir('Hola');
+}
+//El error sintactico es que falta aclarar hasta que valor es
